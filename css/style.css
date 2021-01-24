@@ -1,0 +1,78 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.btn {
+    margin: 10px 0 10px 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    background-color: rgb(218, 238, 231);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: rgb(48, 48, 48);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgb(241, 233, 209);
+}
+
+.btn_icon {
+    margin-left: 10px;
+}
+
+.btn_text {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.message-hist {
+    border: 2px solid rgb(141, 185, 147);
+    border-radius: 10px;
+    height: 305px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message-send {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt {
+    padding-left: 10px;
+    height: 35px;
+    width: 100%;
+    min-width: 100px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid rgb(141, 185, 147);
+    color: rgb(48, 48, 48);
+}
+
+.message-wrap {
+    margin-top: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-txt {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(141, 185, 147);
+    color: rgb(48, 48, 48);
+}
